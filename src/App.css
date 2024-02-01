@@ -1,0 +1,210 @@
+.Homepage {
+  margin: 0px auto;
+  /* padding-top: 0.3%; */
+  background: transparent;
+  /* text-align: center; */
+  width: 100%;
+  /* height: 95vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden; */
+}
+
+.shop_name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(218, 216, 216);
+  font-size: 200%;
+  margin-left: 1%;
+  margin-top: 0%;
+  padding: 1%;
+}
+
+.bg-body-tertiary {
+  /* padding: 1.2%; */
+  margin: 0;
+  background-color: #007FFF; 
+}
+
+
+.content-body {
+  /* border: 1px solid red; */
+  margin: 15;
+}
+
+
+.product_board {
+  width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  
+}
+
+.rotate-left {
+  transform: rotate(-15deg);
+}
+
+.aboutus {
+  width: 1200px;
+  margin: 0px auto;
+  /* justify-content: space-between; */
+}
+
+.banner {
+  margin-bottom: 1%;
+}
+
+.footer {
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+  margin: 0 auto;
+  padding: 0.005cap;
+  color: rgb(95, 95, 95);
+  display: flex;
+}
+
+
+.footer li {
+  list-style: none;
+  display: inline;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+
+.rightUl {
+  flex: 13;
+  
+}
+
+.leftUl {
+  flex: 1;
+  text-align: left;
+  /* border: 1px solid red; */
+}
+
+.footer ul {
+  text-align: right;
+  margin: 1%;
+}
+
+
+.chatBot {
+  position: fixed;
+  bottom: 70px; /* Adjust the value to change the vertical position */
+  right: 20px; /* Adjust the value to change the horizontal position */
+  z-index: 999; /* Set a high z-index value to ensure it appears above other elements */
+  cursor: pointer;
+  background-color: rgb(248, 245, 245);
+  padding: 1%;
+  border-radius: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+.inputDialogBackground {
+  background-color: none;
+  /* padding: 1%; */
+}
+
+.inputDialog {
+  background-color: #fff; /* White background for the form container */
+  border-radius: 1%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Drop shadow for the form */
+  text-align: center;
+  width: 500px; /* Adjust the width as needed */
+}
+
+.button-container {
+  margin-top: 5px;
+  padding: 2%;
+}
+
+.button-container Button {
+  margin: 1%;
+}
+
+.pagination {
+  margin: 1% auto;
+}
+
+.product_board .card:hover {
+  border: 2px solid rgba(0, 127, 255, 0.4);
+  box-shadow: 0 0 40px rgba(0, 127, 255, 0.4); /* Add a shadow on hover */
+}
+
+/* Add this to your CSS file */
+.chat-history-inner {
+  max-height: 300px; /* Set a maximum height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin: 1%;
+}
+
+/* .chat-history-inner {
+  max-height: 300px;
+  overflow-y: auto;
+} */
+
+/* Hide the vertical scrollbar */
+.chat-history-inner::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Optionally, you can style the track or thumb if needed */
+.chat-history-inner::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Track color */
+}
+
+.chat-history-inner::-webkit-scrollbar-thumb {
+  background: #8f9ca9; /* Thumb color */
+  border-radius: 3px;
+}
+
+
+/* Define CSS for user messages */
+/* Define CSS for user messages */
+/* Define CSS for user messages */
+.user-message {
+  text-align: right;
+  word-wrap: break-word
+}
+
+/* Define CSS for bot messages */
+.bot-message {
+  text-align: left;
+  word-wrap: break-word;
+}
+
+/* Define CSS for message containers */
+.message-container {
+  display: flex;
+  justify-content: flex-start; /* User message container alignment */
+  margin: 5px;
+}
+
+.message-container .bot-message {
+  justify-content: flex-end; /* Bot message container alignment */
+}
+
+.message-container .user-message,
+.message-container .bot-message {
+  max-width: 50; /* Adjust the maximum width as needed */
+}
+
+/* Define CSS for message content */
+.message-content {
+  background-color: #007bff; /* Message content background color */
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 5px;
+  display: inline-block; /* Prevents content from taking the entire space */
+}
+
+
